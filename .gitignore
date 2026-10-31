@@ -1,0 +1,16 @@
+# Re-downloaded public source data and large derived matrices
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Temporary/checkpoint files
+*.part
+*.tmp
+*.rds.tmp
+.Rhistory
+.RData
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

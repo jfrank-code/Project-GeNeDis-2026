@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use MOSAIC-3, cite this software and the original TCGA/Xena and GEO datasets."
+title: "MOSAIC-3: Multi-Omics Stability, Integration and Clinical Insight"
+type: software
+version: 1.0.0
+date-released: 2026-10-31
+abstract: "A reproducible multi-omics benchmarking and biomarker-stability workflow for NSCLC and rheumatoid arthritis."
+license: MIT

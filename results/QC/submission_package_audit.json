@@ -1,0 +1,18 @@
+{
+  "package": "MOSAIC-3 GeNeDis 2026 submission",
+  "package_validation": "PASS",
+  "archived_preflight_status": "PASS",
+  "required_deliverables": {
+    "english_readme": true,
+    "source_accession_documentation": true,
+    "python_and_r_source": true,
+    "archived_key_outputs": true,
+    "qc_and_provenance": true,
+    "english_html_report": true,
+    "english_pdf_report": true,
+    "limitations_and_compliance": true
+  },
+  "raw_inputs_bundled": false,
+  "large_processed_matrices_bundled": false,
+  "note": "Raw inputs and large processed matrices are intentionally excluded; the fresh-start scripts reconstruct them from public sources."
+}

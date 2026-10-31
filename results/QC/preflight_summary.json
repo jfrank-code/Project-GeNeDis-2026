@@ -1,0 +1,34 @@
+{
+  "LUAD": {
+    "clinical_rows": 440,
+    "unique_sample_ids": 440,
+    "events": 157,
+    "censored": 283,
+    "common_samples_all_omics_and_clinical": 440,
+    "selection_rule": "primary tumour 01, one sample per case, complete RNA/CNV/HM450 and OS"
+  },
+  "LUSC": {
+    "clinical_rows": 360,
+    "unique_sample_ids": 360,
+    "events": 154,
+    "censored": 206,
+    "common_samples_all_omics_and_clinical": 360,
+    "selection_rule": "primary tumour 01, one sample per case, complete RNA/CNV/HM450 and OS"
+  },
+  "RA": {
+    "complete_donors": 20,
+    "RA": 10,
+    "OA": 10,
+    "modalities": [
+      "RNA",
+      "ATAC",
+      "H3K27ac",
+      "H3K4me3"
+    ]
+  },
+  "preflight": {
+    "status": "PASS",
+    "errors": []
+  },
+  "note": "This PASS records the original analysis-workspace QC. The raw and full processed input matrices were not bundled in the Git package; they are recreated by run_mosaic3.ps1."
+}

@@ -1,0 +1,2 @@
+source_file,rows_before_deduplication,rows_after_deduplication,duplicate_selection_rows_removed,max_selection_frequency_after_audit,frequency_above_one_after_audit,note
+ra_selected_features_by_fold.csv,898,897,1,1.0,0,Archived feature IDs lack modality prefixes. Gene-level stability is corrected by unique model/feature/repetition/fold counts; exact legacy modality attribution is unavailable.

@@ -1,0 +1,4 @@
+"gene_symbol","context","RA_selection_frequency","NSCLC_selection_frequency"
+"NR0B1","RA_LUAD_shared",0.1,0.4
+"PAX9","RA_LUAD_shared",0.1,0.2
+"SPINK1","RA_LUAD_shared",0.1,0.2

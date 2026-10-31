@@ -1,0 +1,3 @@
+"cohort","n_model_complete","events","censored","RNA_features","CNV_features","METHYLATION_features"
+"LUAD",440,157,283,20530,24776,396065
+"LUSC",360,154,206,20530,24776,396065

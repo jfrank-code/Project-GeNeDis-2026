@@ -1,0 +1,74 @@
+{
+  "project": {
+    "name": "MOSAIC-3 GeNeDis 2026",
+    "seed": 20261031,
+    "quick_mode": false,
+    "keep_raw_ra_processed_files": true,
+    "fresh_start_downloads": true,
+    "cleanup_tcga_raw_after_preparation": false,
+    "quick_mode_description": "Full/recommended jury mode. Archived submission metrics were generated in reduced quick mode; see the report."
+  },
+  "luad": {
+    "xena_host": "https://tcga.xenahubs.net",
+    "survival_host": "https://pancanatlas.xenahubs.net",
+    "datasets": {
+      "RNA": "TCGA.LUAD.sampleMap/HiSeqV2",
+      "CNV": "TCGA.LUAD.sampleMap/Gistic2_CopyNumber_Gistic2_all_data_by_genes",
+      "METHYLATION": "TCGA.LUAD.sampleMap/HumanMethylation450",
+      "CLINICAL": "TCGA.LUAD.sampleMap/LUAD_clinicalMatrix",
+      "SURVIVAL": "survival/LUAD_survival.txt",
+      "SNV": "mc3_gene_level/LUAD_mc3_gene_level.txt"
+    },
+    "download_snv": true,
+    "rna_transform": "already_log2",
+    "selection_rule": "primary_tumour_sample_type_01_one_per_case_vial_A_preferred_complete_RNA_CNV_HM450_valid_OS"
+  },
+  "lusc": {
+    "xena_host": "https://tcga.xenahubs.net",
+    "survival_host": "https://pancanatlas.xenahubs.net",
+    "datasets": {
+      "RNA": "TCGA.LUSC.sampleMap/HiSeqV2",
+      "CNV": "TCGA.LUSC.sampleMap/Gistic2_CopyNumber_Gistic2_all_data_by_genes",
+      "METHYLATION": "TCGA.LUSC.sampleMap/HumanMethylation450",
+      "CLINICAL": "TCGA.LUSC.sampleMap/LUSC_clinicalMatrix",
+      "SURVIVAL": "survival/LUSC_survival.txt",
+      "SNV": "mc3_gene_level/LUSC_mc3_gene_level.txt"
+    },
+    "download_snv": true,
+    "rna_transform": "already_log2",
+    "selection_rule": "primary_tumour_sample_type_01_one_per_case_vial_A_preferred_complete_RNA_CNV_HM450_valid_OS"
+  },
+  "ra": {
+    "rna_accession": "GSE112656",
+    "atac_accession": "GSE112654",
+    "chip_accession": "GSE112655",
+    "exclude_wgbs": true,
+    "selected_chip_marks": [
+      "H3K27ac",
+      "H3K4me3"
+    ],
+    "promoter_upstream_bp": 2000,
+    "promoter_downstream_bp": 500,
+    "max_individual_peak_file_mb": 35
+  },
+  "analysis": {
+    "cancer_outer_repeats": 3,
+    "cancer_outer_folds": 5,
+    "cancer_inner_folds": 3,
+    "cancer_max_features_per_layer": 600,
+    "cancer_nlambda": 12,
+    "cancer_lambda_min_ratio": 0.03,
+    "ra_outer_repeats": 3,
+    "ra_outer_folds": 5,
+    "ra_inner_folds": 3,
+    "ra_max_features_per_layer": 120,
+    "ra_nlambda": 10,
+    "ra_lambda_min_ratio": 0.05,
+    "ra_run_svm_sensitivity": true,
+    "run_rsf_sensitivity": true,
+    "include_snv_in_primary_if_coverage_at_least": 0.8,
+    "cancer_run_rsf_sensitivity": true,
+    "cancer_rsf_trees": 200,
+    "jury_run_recommended": true
+  }
+}
