@@ -1,4 +1,20 @@
 # MOSAIC-3 | GeNeDis 2026
+> [!IMPORTANT]
+> ## Processed Data Matrices — Google Drive Access
+>
+> The complete processed feature matrices used in MOSAIC-3 are available through the following Google Drive repository. They are hosted externally due to their file size and are not stored directly in this GitHub repository.
+>
+> **[https://drive.google.com/file/d/1NS8K4wEDslnMjTtaiYBk2xFqqHTK8BRJ/view)**
+>
+> The shared data include:
+>
+> - **TCGA-LUAD:** RNA-seq, copy number variation (CNV), and DNA methylation (HM450).
+> - **TCGA-LUSC:** RNA-seq, copy number variation (CNV), and DNA methylation (HM450).
+> - **Rheumatoid Arthritis (RA):** RNA-seq, ATAC-seq, H3K27ac, and H3K4me3.
+>
+> These processed matrices support the archived analyses and facilitate independent inspection and reproducibility.
+>
+> Please consult `docs/DATA_PROVENANCE.md` for dataset accessions, original sources, and processing details.
 
 **Multi-Omics Stability, Integration and Clinical Insight**  
 *A reproducible, disease-agnostic framework for predictive contribution, biomarker stability, and exploratory cross-indication comparison in non-small cell lung cancer (NSCLC) and rheumatoid arthritis (RA).*
