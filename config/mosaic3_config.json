@@ -52,13 +52,13 @@
     "max_individual_peak_file_mb": 35
   },
   "analysis": {
-    "cancer_outer_repeats": 3,
+    "cancer_outer_repeats": 10,
     "cancer_outer_folds": 5,
     "cancer_inner_folds": 3,
     "cancer_max_features_per_layer": 600,
     "cancer_nlambda": 12,
     "cancer_lambda_min_ratio": 0.03,
-    "ra_outer_repeats": 3,
+    "ra_outer_repeats": 25,
     "ra_outer_folds": 5,
     "ra_inner_folds": 3,
     "ra_max_features_per_layer": 120,
